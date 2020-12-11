@@ -1,0 +1,29 @@
+{
+  "name": "taskmanager",
+  "version": "1.0.0",
+  "description": "My first bot, designed to annoy people and enjoy life.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blasto33/TaskManager.git"
+  },
+  "keywords": [],
+  "author": "Thomas de Barros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blasto33/TaskManager/issues"
+  },
+  "homepage": "https://github.com/Blasto33/TaskManager#readme",
+  "dependencies": {
+    "commando": "0.0.2",
+    "discord": "^0.8.2",
+    "discord.js": "^12.5.1",
+    "discord.js-commando": "github:discordjs/Commando",
+    "node": "^15.3.0",
+    "ytdl-core": "^4.1.4"
+  }
+}
