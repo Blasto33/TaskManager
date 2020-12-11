@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Blasto33/TaskManager#readme",
   "dependencies": {
+    "@discordjs/opus": "^0.3.3",
     "commando": "0.0.2",
     "discord": "^0.8.2",
     "discord.js": "^12.5.1",
