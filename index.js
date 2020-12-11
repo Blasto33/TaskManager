@@ -1,6 +1,7 @@
+require('dotenv').config()
 const Commando = require('discord.js-commando');
 const bot = new Commando.CommandoClient();
-const TOKEN = 'NjQ3MDM0MTQwODY0MjgyNjU0.XdZzgA.PYjalvcbx9Ph8VQ6toTtgDgWeB8';
+const TOKEN = process.env.BOT_TOKEN;
 var prefix = '/';
 
 /* On enregistre les différents dossiers */
