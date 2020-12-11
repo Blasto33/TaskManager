@@ -23,6 +23,7 @@
     "discord": "^0.8.2",
     "discord.js": "^12.5.1",
     "discord.js-commando": "github:discordjs/Commando",
+    "dotenv": "^8.2.0",
     "node": "^15.3.0",
     "ytdl-core": "^4.1.4"
   }
