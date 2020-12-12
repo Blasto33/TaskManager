@@ -9,7 +9,7 @@ Task Manager is a Discord bot made by Blasto, in order to annoy his friends and 
 It is currently able to run simple (and often **useless**) commands, play music and in the future, maybe more advanced commands?
 
 # How can I add the bot to my server?
-Just follow this link and select your server!
+Just follow this link => https://discord.com/oauth2/authorize?client_id=647034140864282654&scope=bot
 
 # What are the commands available?
 
