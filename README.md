@@ -1,3 +1,9 @@
+<img 
+    alt="Discord" 
+    src="https://img.shields.io/discord/278296410317914112"> <img 
+    alt="GitHub top language" 
+    src="https://img.shields.io/github/languages/top/Blasto33/TaskManager">
+
 # What is Task Manager
 Task Manager is a Discord bot made by Blasto, in order to annoy his friends and therefore, enjoy his life to the fullest.
 It is currently able to run simple (and often **useless**) commands, play music and in the future, maybe more advanced commands?
