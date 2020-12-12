@@ -18,6 +18,21 @@ bot.registry.registerCommandsIn(__dirname + '/commands');
 
 global.servers = {};
 
+var setRandomBotActivities = setInterval(function() {
+    
+    var activities = [
+        "Eating screws",
+        "Reticulating splines",
+        "Tidy up his plugins",
+        "Playing Minecraft",
+        "Fighting Daleks",
+        "Updating his software",
+        "Coding plugins"
+    ];
+
+    bot.user.setActivity(activities[Math.floor(Math.random() * activities.length)]);
+}, 300000); // The bot will change its activiies every 5 minutes
+
 bot.on('ready', function() {
     console.log("Task Manager, ready to go !");
 });
@@ -33,9 +48,11 @@ bot.on('message', message => {
 
     if (message.content.toLowerCase().startsWith("!play")) {
         var channelToJoin = message.member.voice.channel;
+        var result_list_search = message.content.toLowerCase().search("--list")
+        console.log(result_list_search);
 
         if (channelToJoin != null) {
-            //console.log(channelID);
+            
             channelToJoin.join()
             .then(connection => {
                 console.log("Task Manager joined the channel " + channelToJoin.name);
@@ -48,7 +65,7 @@ bot.on('message', message => {
         else {
             message.reply("You must be in a voice channel to play music.")
         }
-    }
+    } 
     
     if (message.content.toLowerCase().startsWith("!leave")) {
         var channelToLeave = message.member.voice.channel;
